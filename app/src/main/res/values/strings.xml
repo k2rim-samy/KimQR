@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">KimQR</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_generate">Generate</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Settings localized strings -->
+    <string name="settings_title">General Settings</string>
+    <string name="settings_theme_title">Enable Dark Theme</string>
+    <string name="settings_theme_desc">Convert the entire application theme to dark to protect your eyes</string>
+    <string name="settings_beep_title">Scan Sound Beep</string>
+    <string name="settings_beep_desc">Play a short beep sound on successful scan</string>
+    <string name="settings_vibrate_title">Scan Vibration</string>
+    <string name="settings_vibrate_desc">Vibrate the device gently on successful scan</string>
+    <string name="settings_autosave_title">Auto-Save Scans</string>
+    <string name="settings_autosave_desc">Automatically record scanned items to history list</string>
+    <string name="settings_export_title">Export &amp; Generate Quality</string>
+    <string name="settings_export_desc">Select resolution quality for generated QR/Barcode images</string>
+    <string name="settings_security_title">Security &amp; Cache Operations</string>
+    <string name="settings_passcode_title">App Passcode (PIN)</string>
+    <string name="settings_passcode_desc_set">The application is secured with a 4-digit PIN code</string>
+    <string name="settings_passcode_desc_unset">Secure your code scan history with a secure PIN code</string>
+    <string name="settings_passcode_btn_enable">Enable Lock</string>
+    <string name="settings_passcode_btn_disable">Disable Lock</string>
+    <string name="settings_clear_history_title">Clear Entire History &amp; Cache</string>
+    <string name="settings_clear_history_desc">Permanently delete all scanned and generated codes from the database</string>
+    <string name="settings_current_language_title">App Language</string>
+    <string name="settings_current_language_desc">Adapts automatically to your device\'s system settings (English / Arabic)</string>
+    <string name="settings_onboarding_reset_title">Restore Welcome Guide</string>
+    <string name="settings_onboarding_reset_desc">Reset and show the onboarding setup tutorial on next launch</string>
+    <string name="settings_onboarding_reset_btn">Reset Setup</string>
+    <string name="settings_clear_dialog_title">Are you sure you want to delete all history?</string>
+    <string name="settings_clear_dialog_desc">Are you sure you want to clear history and favorites permanently? This action can\'t be undone.</string>
+    <string name="settings_clear_confirm_btn">Clear Permanently</string>
+    <string name="settings_dialog_cancel">Cancel</string>
+    <string name="settings_pin_dialog_title">Set Security PIN</string>
+    <string name="settings_pin_dialog_desc">Enter a 4-digit PIN to secure your local history:</string>
+    <string name="settings_pin_dialog_btn">Enable</string>
+    <string name="settings_app_desc">A fast, secure, offline-first application configured to protect your device data, scanning personal and secret information safely 100% locally.</string>
+    <string name="settings_gold_version">Stable Golden Edition v1.0</string>
+
+    <!-- Scan Tab Strings -->
+    <string name="camera_permission_required_title">Camera Permission Required</string>
+    <string name="camera_permission_required_desc">Please grant camera access to scan codes and barcodes automatically.</string>
+    <string name="camera_permission_grant_btn">Allow Access</string>
+    <string name="scan_instruction">Place QR or Barcode inside the frame to scan automatically</string>
+    <string name="gallery_error_toast">Failed to read image file!</string>
+    <string name="gallery_no_code_toast">No QR code or Barcode found in this image!</string>
+    <string name="gallery_loading_msg">Reading code from image…</string>
+    <string name="toast_copied">Copied to clipboard successfully!</string>
+    <string name="scan_success_qr">QR Code found successfully!</string>
+    <string name="scan_success_barcode">Barcode scanned successfully!</string>
+    <string name="scan_result_type_qr_label">QR Code</string>
+    <string name="scan_result_type_barcode_label">Barcode (%s)</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_open_link">Open Link</string>
+    <string name="btn_share">Share</string>
+    <string name="share_text_chooser">Share scan content</string>
+    <string name="btn_scan_new">Scan New Code</string>
+    <string name="desc_flash_toggle">Flash Toggle</string>
+    <string name="desc_gallery_sec">Gallery</string>
+    
+    <!-- Generate Tab Strings -->
+    <string name="gen_tab_qr_custom">Custom QR Code</string>
+    <string name="gen_tab_barcode">Barcode</string>
+    <string name="gen_header_qr">Create Custom QR Code</string>
+    <string name="gen_header_barcode">Create Custom Barcode</string>
+    
+    <!-- QR Templates Categories -->
+    <string name="cat_url">Link</string>
+    <string name="cat_text">Text</string>
+    <string name="cat_wifi">WiFi</string>
+    <string name="cat_phone">Phone</string>
+    <string name="cat_sms">SMS</string>
+    <string name="cat_email">Email</string>
+    <string name="cat_contact">Contact</string>
+    <string name="cat_location">Location</string>
+    
+    <!-- Input Placeholders -->
+    <string name="input_url">Enter website URL</string>
+    <string name="input_text">Enter text to encode</string>
+    <string name="input_wifi_ssid">WiFi Network Name (SSID)</string>
+    <string name="input_wifi_pass">Password</string>
+    <string name="input_phone">Phone number (with country code)</string>
+    <string name="input_sms_phone">Recipient number</string>
+    <string name="input_sms_body">Message body</string>
+    <string name="input_email_addr">Destination Email</string>
+    <string name="input_email_subject">Subject</string>
+    <string name="input_email_body">Email message body</string>
+    <string name="input_vcard_name">Full Name</string>
+    <string name="input_vcard_phone">Primary Phone</string>
+    <string name="input_vcard_email">Email Address</string>
+    <string name="input_vcard_org">Company / Organization</string>
+    <string name="input_loc_lat">Latitude</string>
+    <string name="input_loc_lon">Longitude</string>
+    <string name="preview_placeholder">Type something to preview…</string>
+    
+    <!-- QR Customization Design Labels -->
+    <string name="custom_features_header">Professional QR Customization Features</string>
+    <string name="custom_gradient_toggle">Use dimensional color gradient</string>
+    <string name="custom_primary_color">Choose code primary color</string>
+    <string name="custom_secondary_color">Choose secondary gradient color</string>
+    <string name="custom_style_dots">Inner points style (Matrix)</string>
+    <string name="custom_style_sq">Squares</string>
+    <string name="custom_style_dt">Round dots</string>
+    <string name="custom_style_rd">Rounded edges</string>
+    <string name="custom_eye_style_label">QR corner eye design</string>
+    <string name="custom_eye_sq">Geometric square</string>
+    <string name="custom_eye_ci">Soft circular</string>
+    <string name="custom_eye_rd">Classic curved</string>
+    <string name="custom_logo_label">Add center brand logo</string>
+    <string name="logo_none">No Logo</string>
+    <string name="toast_input_required">Please write content first!</string>
+    
+    <!-- QR Save/Export Actions -->
+    <string name="btn_save_png">Save High Quality in Gallery (PNG)</string>
+    <string name="btn_export_pdf">Export as Document for Printing (PDF)</string>
+    <string name="btn_share_direct">Share Code Directly</string>
+    <string name="btn_save_history">Save and Pin Code in History</string>
+    
+    <!-- Save Dialog QR/Barcode -->
+    <string name="dialog_save_history_title">Save Code in History</string>
+    <string name="dialog_save_history_desc">Type a custom name to make searching and identifying this code easier later in your history list:</string>
+    <string name="dialog_save_history_placeholder">Identifier Name (Alias)</string>
+    <string name="btn_save_download">Save and Download</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <!-- Barcode Strings Section -->
+    <string name="barcode_content_label">Code content and format</string>
+    <string name="input_barcode_content_hint">Enter barcode text or numbers</string>
+    <string name="barcode_format_label">Select barcode format</string>
+    <string name="barcode_custom_colors_title">Customize barcode colors &amp; design</string>
+    <string name="barcode_color_lines">Color barcode lines</string>
+    <string name="barcode_color_bg">Color barcode background</string>
+    <string name="barcode_show_readable_text">Show human readable text below barcode</string>
+    <string name="barcode_invalid_warning">Warning: Invalid formula configuration!</string>
+    <string name="save_barcode_dialog_title">Save Barcode</string>
+    <string name="save_barcode_dialog_desc">Type a custom name to identify this barcode in your history list:</string>
+    <string name="toast_qr_saved_pdf">PDF saved successfully!</string>
+    <string name="toast_pdf_doc_error">Failed to save PDF archive!</string>
+    <string name="toast_image_saved">Saved successfully in pictures gallery!</string>
+    
+    <!-- Filter Presets Labels -->
+    <string name="filter_all">All</string>
+    <string name="filter_scanned">Scanned</string>
+    <string name="filter_generated">Created</string>
+    <string name="filter_favorites">Favorites</string>
+    
+    <!-- History Tab Strings -->
+    <string name="history_header_title">History &amp; Logs</string>
+    <string name="desc_clear_all">Clear All</string>
+    <string name="dialog_clear_all_confirm_title">Clear Entire History?</string>
+    <string name="dialog_clear_all_confirm_desc">Are you sure you want to clear the entire history, bookmarks, and favorites permanently? This action is irreversible.</string>
+    <string name="dialog_clear_all_confirm_btn">Yes, Clear All</string>
+    <string name="toast_history_clear_success">History logs cleared successfully!</string>
+    <string name="search_history_placeholder">Search saved codes…</string>
+    <string name="history_empty_state_title">Clean Slate</string>
+    <string name="history_empty_state_desc">No saved codes or searches found. Scanned or generated codes with auto-save enabled will appear here.</string>
+    
+    <!-- Onboarding Screen Strings -->
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_start_now">Get Started</string>
+    <string name="onboarding_slide1_title">Fast &amp; Professional Scan</string>
+    <string name="onboarding_slide1_desc">Scan all types of codes with extreme accuracy and speed using your camera, or analyze images directly from your gallery.</string>
+    <string name="onboarding_slide2_title">Stunning Personalized Designs</string>
+    <string name="onboarding_slide2_desc">Create and personalize your own QR codes with linear gradients, custom dot patterns, and branding logos seamlessly.</string>
+    <string name="onboarding_slide3_title">Total Offline Security</string>
+    <string name="onboarding_slide3_desc">Secure your private logs and sensitive details with a safe PIN passcode, fully processed 100% locally on your device without internet.</string>
+    
+    <!-- Passcode App Locked Screen -->
+    <string name="passcode_title">Secured App</string>
+    <string name="passcode_hint">Please enter security PIN to enter</string>
+    <string name="passcode_error_msg">Incorrect PIN, please try again!</string>
+
+    <!-- Context descriptions / parsed types -->
+    <string name="type_wifi">WiFi Network: %s</string>
+    <string name="type_email">Email: %s</string>
+    <string name="type_phone">Phone Call: %s</string>
+    <string name="type_sms">SMS: %s</string>
+    <string name="type_location">Location: %s</string>
+    <string name="type_vcard">Contact: %s</string>
+    <string name="type_url">Link: %s</string>
+    <string name="type_text">Text: %s</string>
+    <string name="type_barcode">Barcode (%s)</string>
+    <string name="toast_code_loaded_editor">Code content loaded in editing panel!</string>
+    <string name="scanned_automatically_footer">Scanned automatically</string>
+    <string name="generated_locally_footer">Generated and customized locally</string>
+    <string name="copy_text_action">Copy Text</string>
+    <string name="toast_code_copied_success">Code content copied!</string>
+    <string name="reuse_action">Reuse</string>
+</resources>

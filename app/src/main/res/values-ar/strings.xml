@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">KimQR</string>
+    <string name="nav_scan">مسح</string>
+    <string name="nav_generate">إنشاء</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Settings localized strings -->
+    <string name="settings_title">الإعدادات العامة</string>
+    <string name="settings_theme_title">تفعيل المظهر الليلي (Dark Mode)</string>
+    <string name="settings_theme_desc">تحويل شاشات التطبيق بالكامل للمظهر الداكن لحماية العين</string>
+    <string name="settings_beep_title">رنين صوت المسح</string>
+    <string name="settings_beep_desc">إصدار رنين لتنبيهك فور قراءة الكود بنجاح</string>
+    <string name="settings_vibrate_title">اهتزاز المسح الضوئي</string>
+    <string name="settings_vibrate_desc">إعلامك بـ اهتزاز خفيف فور قراءة الكود بنجاح</string>
+    <string name="settings_autosave_title">حفظ ممسوحات الكاميرا تلقائياً</string>
+    <string name="settings_autosave_desc">حفظ جميع الأكواد التي تم فحصها تلقائياً في قاعدة البيانات</string>
+    <string name="settings_export_title">دقة وجودة تصدير الأكواد</string>
+    <string name="settings_export_desc">تحديد حجم وجودة الصورة المنتجة للأكواد (عالية، متوسطة، منخفضة)</string>
+    <string name="settings_security_title">عمليات قاعدة البيانات والأمان</string>
+    <string name="settings_passcode_title">حماية التطبيق برمز PIN</string>
+    <string name="settings_passcode_desc_set">التطبيق مؤمن برمز مرور PIN مؤلف من 4 أرقام</string>
+    <string name="settings_passcode_desc_unset">أمن سجل رخص الأكواد الخاصة بك برمز مرور PIN خاص</string>
+    <string name="settings_passcode_btn_enable">تمكين القفل</string>
+    <string name="settings_passcode_btn_disable">إلغاء القفل</string>
+    <string name="settings_clear_history_title">مسح السجل بالكامل وتصفير الذاكرة</string>
+    <string name="settings_clear_history_desc">سيقوم هذا بحذف قائمة الرموز نهائياً من قاعدة البيانات المحفوظة</string>
+    <string name="settings_current_language_title">لغة التطبيق</string>
+    <string name="settings_current_language_desc">تتغير تلقائياً حسب إعدادات لغة جهازك (العربية / English)</string>
+    <string name="settings_onboarding_reset_title">إعادة عرض دليل الترحيب</string>
+    <string name="settings_onboarding_reset_desc">عرض الدليل التعليمي عند فتح التطبيق مجدداً</string>
+    <string name="settings_onboarding_reset_btn">إعادة ضبط</string>
+    <string name="settings_clear_dialog_title">تأكيد مسح الترتيب بالكامل؟</string>
+    <string name="settings_clear_dialog_desc">هل أنت متأكد من رغبتك في تفريغ ومسح السجل بالكامل وقائمة المفضلة نهائياً؟ هذا الإجراء لا يمكن التراجع عنه مستقبلياً.</string>
+    <string name="settings_clear_confirm_btn">مسح الكل نهائياً</string>
+    <string name="settings_dialog_cancel">إلغاء</string>
+    <string name="settings_pin_dialog_title">تعيين قفل رمز PIN</string>
+    <string name="settings_pin_dialog_desc">أدخل رمزاً سرياً مؤلفاً من 4 أرقام لحماية سجلاتك الخاصة:</string>
+    <string name="settings_pin_dialog_btn">تمكين</string>
+    <string name="settings_app_desc">تطبيق محلي متكامل ومشفر للعمل بالكامل دون اتصال بالإنترنت ولحماية فحص الأكواد والبيانات الشخصية والسرية بشكل آمن مئة بالمئة.</string>
+    <string name="settings_gold_version">الإصدار الذهبي المستقر v1.0</string>
+
+    <!-- Scan Tab Strings -->
+    <string name="camera_permission_required_title">مطلوب صلاحية الكاميرا</string>
+    <string name="camera_permission_required_desc">يرجى منح التطبيق الوصول إلى الكاميرا لمسح وقراءة الرموز والباركود تلقائيًا.</string>
+    <string name="camera_permission_grant_btn">السماح بالوصول</string>
+    <string name="scan_instruction">ضع رمز QR أو الباركود داخل المربع للمسح تلقائيًا</string>
+    <string name="gallery_error_toast">فشل قراءة ملف الصورة!</string>
+    <string name="gallery_no_code_toast">لم يتم العثور على أي رمز QR أو باركود في هذه الصورة!</string>
+    <string name="gallery_loading_msg">جاري قراءة الرمز من الصورة…</string>
+    <string name="toast_copied">تم النسخ إلى الحافظة بنجاح!</string>
+    <string name="scan_success_qr">تم العثور على رمز QR بنجاح!</string>
+    <string name="scan_success_barcode">تم مسح الباركود بنجاح!</string>
+    <string name="scan_result_type_qr_label">رمز QR</string>
+    <string name="scan_result_type_barcode_label">باركود (%s)</string>
+    <string name="btn_copy">نسخ</string>
+    <string name="btn_open_link">فتح الرابط</string>
+    <string name="btn_share">مشاركة</string>
+    <string name="share_text_chooser">مشاركة محتوى الرمز</string>
+    <string name="btn_scan_new">مسح رمز جديد</string>
+    <string name="desc_flash_toggle">تبديل الفلاش</string>
+    <string name="desc_gallery_sec">المعرض</string>
+    
+    <!-- Generate Tab Strings -->
+    <string name="gen_tab_qr_custom">رمز QR مخصص</string>
+    <string name="gen_tab_barcode">باركود Barcode</string>
+    <string name="gen_header_qr">إنشاء كود QR مخصص</string>
+    <string name="gen_header_barcode">إنشاء باركود Barcode مخصص</string>
+    
+    <!-- QR Templates Categories -->
+    <string name="cat_url">رابط</string>
+    <string name="cat_text">نص</string>
+    <string name="cat_wifi">واي فاي</string>
+    <string name="cat_phone">هاتف</string>
+    <string name="cat_sms">رسالة SMS</string>
+    <string name="cat_email">إيميل</string>
+    <string name="cat_contact">اتصال</string>
+    <string name="cat_location">موقع</string>
+    
+    <!-- Input Placeholders -->
+    <string name="input_url">أدخل رابط موقع الويب</string>
+    <string name="input_text">أدخل النص المراد تشفيره</string>
+    <string name="input_wifi_ssid">اسم شبكة WiFi (SSID)</string>
+    <string name="input_wifi_pass">كلمة المرور</string>
+    <string name="input_phone">رقم الهاتف (مع رمز الدولة)</string>
+    <string name="input_sms_phone">رقم المستلم</string>
+    <string name="input_sms_body">مضمون الرسالة</string>
+    <string name="input_email_addr">البريد الإلكتروني للوجهة</string>
+    <string name="input_email_subject">موضوع الرسالة</string>
+    <string name="input_email_body">مضمون البريد الإلكتروني</string>
+    <string name="input_vcard_name">الاسم الكامل</string>
+    <string name="input_vcard_phone">الهاتف الرئيسي</string>
+    <string name="input_vcard_email">البريد الإلكتروني</string>
+    <string name="input_vcard_org">الشركة / المنظمة</string>
+    <string name="input_loc_lat">خط العرض (Latitude)</string>
+    <string name="input_loc_lon">خط الطول (Longitude)</string>
+    <string name="preview_placeholder">اكتب شيئًا للمعاينة…</string>
+    
+    <!-- QR Customization Design Labels -->
+    <string name="custom_features_header">ميزات تخصيص الـ QR الاحترافية</string>
+    <string name="custom_gradient_toggle">استخدام تدرج لوني مجسم</string>
+    <string name="custom_primary_color">اختر اللون الرئيسي للرمز</string>
+    <string name="custom_secondary_color">اختر لون التدرج الثانوي</string>
+    <string name="custom_style_dots">شكل النقاط الداخلي (المصفوفة)</string>
+    <string name="custom_style_sq">مربعات</string>
+    <string name="custom_style_dt">نقاط دائرية</string>
+    <string name="custom_style_rd">حواف مستديرة</string>
+    <string name="custom_eye_style_label">تصميم عيون زوايا رمز الـ QR</string>
+    <string name="custom_eye_sq">مربع هندسي</string>
+    <string name="custom_eye_ci">دائري ناعم</string>
+    <string name="custom_eye_rd">منحني كلاسيكي</string>
+    <string name="custom_logo_label">إضافة شعار مركز الرمز</string>
+    <string name="logo_none">بدون شعار</string>
+    <string name="toast_input_required">الرجاء كتابة محتوى أولاً!</string>
+    
+    <!-- QR Save/Export Actions -->
+    <string name="btn_save_png">حفظ بجودة عالية في المعرض (PNG)</string>
+    <string name="btn_export_pdf">تصدير كملف للطباعة (PDF)</string>
+    <string name="btn_share_direct">مشاركة الرمز مباشرة</string>
+    <string name="btn_save_history">حفظ الكود وتثبيته في السجل</string>
+    
+    <!-- Save Dialog QR/Barcode -->
+    <string name="dialog_save_history_title">تأكيد حفظ الكود في السجل</string>
+    <string name="dialog_save_history_desc">اكتب اسماً مخصصاً لتسهيل البحث والتعرف على هذا الرمز لاحقاً في قائمة السجل الخاص بك:</string>
+    <string name="dialog_save_history_placeholder">الاسم التعريفي (اللقب)</string>
+    <string name="btn_save_download">حفظ وتنزيل</string>
+    <string name="btn_cancel">إلغاء</string>
+    
+    <!-- Barcode Strings Section -->
+    <string name="barcode_content_label">محتوى الرمز وصيغته</string>
+    <string name="input_barcode_content_hint">أدخل نص أو أرقام الباركود</string>
+    <string name="barcode_format_label">تحديد تنسيق وصيغة الباركود</string>
+    <string name="barcode_custom_colors_title">تخصيص ألوان وتصميم الباركود</string>
+    <string name="barcode_color_lines">تلوين خطوط الباركود</string>
+    <string name="barcode_color_bg">تلوين خلفية الباركود</string>
+    <string name="barcode_show_readable_text">إظهار الكود كـ نص مقروء أسفل الأعمدة</string>
+    <string name="barcode_invalid_warning">تحذير: صيغة غير مطابقة للمواصفات!</string>
+    <string name="save_barcode_dialog_title">تأكيد حفظ الباركود</string>
+    <string name="save_barcode_dialog_desc">اكتب اسماً مخصصاً لتسهيل البحث والتعرف على هذا الباركود لاحقاً في قائمة السجل:</string>
+    <string name="toast_qr_saved_pdf">تم حفظ ملف PDF بنجاح!</string>
+    <string name="toast_pdf_doc_error">فشل تصدير ملف الطباعة PDF!</string>
+    <string name="toast_image_saved">تم حفظ الصورة في معرض الصور لجهازك!</string>
+    
+    <!-- Filter Presets Labels -->
+    <string name="filter_all">الكل</string>
+    <string name="filter_scanned">ممسوحة</string>
+    <string name="filter_generated">منشأة</string>
+    <string name="filter_favorites">المفضلة</string>
+    
+    <!-- History Tab Strings -->
+    <string name="history_header_title">السجل والتاريخ</string>
+    <string name="desc_clear_all">مسح الكل</string>
+    <string name="dialog_clear_all_confirm_title">مسح السجل بالكامل؟</string>
+    <string name="dialog_clear_all_confirm_desc">هل أنت متأكد من رغبتك في تفريغ ومسح السجل بالكامل والمفضلة نهائياً؟ هذا الإجراء لا يمكن التراجع عنه.</string>
+    <string name="dialog_clear_all_confirm_btn">مسح الكل نهائياً</string>
+    <string name="toast_history_clear_success">تم تصفير وإفراغ سجل السيرة بنجاح تام!</string>
+    <string name="search_history_placeholder">ابحث في الرموز المحفوظة…</string>
+    <string name="history_empty_state_title">سجل نظيف فارغ</string>
+    <string name="history_empty_state_desc">لا توجد رموز محفوظة أو عمليات بحث مطابقة. الرموز الممسوحة أو المنشأة مع تمكين الحفظ التلقائي ستظهر هنا.</string>
+    
+    <!-- Onboarding Screen Strings -->
+    <string name="btn_skip">تخطي</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_start_now">ابدأ الآن</string>
+    <string name="onboarding_slide1_title">مسح سريع واحترافي</string>
+    <string name="onboarding_slide1_desc">امسح جميع أنواع الرموز بدقة وسرعة فائقة باستخدام كاميرا الهاتف أو بفحص الصور من المعرض مباشرة.</string>
+    <string name="onboarding_slide2_title">أكواد بتصميمات مذهلة</string>
+    <string name="onboarding_slide2_desc">أنشئ وخصص أكواد QR الخاصة بك بألوان متدرجة، وأشكال نقاط دائرية، مع إمكانية دمج شعارات المواقع الشهيرة بسهولة.</string>
+    <string name="onboarding_slide3_title">أمان تام وحماية خصوصيتك</string>
+    <string name="onboarding_slide3_desc">احمِ سجلاتك الخاصة ورموزك الهامة برمز مرور PIN مؤمن، مع ميزات تخزين السجلات محليًا للعمل بأمان تام وبدون حاجة للإنترنت.</string>
+    
+    <!-- Passcode App Locked Screen -->
+    <string name="passcode_title">تطبيق مؤمن</string>
+    <string name="passcode_hint">يرجى إدخال رمز المرور للدخول</string>
+    <string name="passcode_error_msg">رمز مرور خاطئ، يرجى المحاولة مجددًا!</string>
+
+    <!-- Context descriptions / parsed types -->
+    <string name="type_wifi">شبكة واي فاي: %s</string>
+    <string name="type_email">بريد إلكتروني: %s</string>
+    <string name="type_phone">اتصال هاتف: %s</string>
+    <string name="type_sms">رسالة SMS إلى: %s</string>
+    <string name="type_location">الموقع: %s</string>
+    <string name="type_vcard">جهة اتصال: %s</string>
+    <string name="type_url">رابط: %s</string>
+    <string name="type_text">نص: %s</string>
+    <string name="type_barcode">باركود (%s)</string>
+    <string name="toast_code_loaded_editor">تم تحميل محتوى الرمز في لوحة التعديل!</string>
+    <string name="scanned_automatically_footer">تم مسحه تلقائيًا</string>
+    <string name="generated_locally_footer">مُنشأ ومنسق محليًا</string>
+    <string name="copy_text_action">نسخ النص</string>
+    <string name="toast_code_copied_success">تم نسخ محتوى الرمز!</string>
+    <string name="reuse_action">إعادة استخدام</string>
+</resources>

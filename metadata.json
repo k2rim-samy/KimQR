@@ -1,0 +1,6 @@
+{
+  "name": "KimQR",
+  "description": "A high-performance luxury design QR Code scanner and generator with offline support, customizable styles, and full history management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
