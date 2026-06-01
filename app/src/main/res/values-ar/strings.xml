@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KimQR</string>
+    <string name="app_name">QR Master</string>
     <string name="nav_scan">مسح</string>
     <string name="nav_generate">إنشاء</string>
     <string name="nav_history">السجل</string>

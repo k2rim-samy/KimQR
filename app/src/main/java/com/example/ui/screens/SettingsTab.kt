@@ -398,7 +398,7 @@ fun SettingsTab(
                 modifier = Modifier.padding(20.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text("KimQR", color = MaterialTheme.colorScheme.onSurface, fontSize = 18.sp, fontWeight = FontWeight.ExtraBold)
+                Text("QR Master", color = MaterialTheme.colorScheme.onSurface, fontSize = 18.sp, fontWeight = FontWeight.ExtraBold)
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(stringResource(R.string.settings_gold_version), color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 12.sp)
                 Spacer(modifier = Modifier.height(8.dp))

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KimQR</string>
+    <string name="app_name">QR Master</string>
     <string name="nav_scan">Scan</string>
     <string name="nav_generate">Generate</string>
     <string name="nav_history">History</string>
@@ -7,8 +7,8 @@
 
     <!-- Settings localized strings -->
     <string name="settings_title">General Settings</string>
-    <string name="settings_theme_title">Enable Dark Theme</string>
-    <string name="settings_theme_desc">Convert the entire application theme to dark to protect your eyes</string>
+    <string name="settings_theme_title">Theme Mode</string>
+    <string name="settings_theme_desc">Light and dark palettes are designed for system-aware premium use</string>
     <string name="settings_beep_title">Scan Sound Beep</string>
     <string name="settings_beep_desc">Play a short beep sound on successful scan</string>
     <string name="settings_vibrate_title">Scan Vibration</string>
