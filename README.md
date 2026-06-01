@@ -1,25 +1,30 @@
-# KimQR
+# QR Master
 
-A modern and professional app for creating and scanning QR Codes and Barcodes بسهولة and quickly, with a smart user experience and stylish modern design.
+QR Master is a modern, premium QR Code Generator & Scanner application designed for Android and iOS with Flutter. The repository also keeps the existing native Android implementation while adding a clean Flutter application layer for a cross-platform future.
 
-## Features
+## Flutter App Highlights
 
-• Generate QR Codes and Barcodes in multiple formats.
-• Scan codes using the camera or gallery images.
-• Customize colors, styles, and code designs.
-• Full support for dark mode and light mode.
-• Save and share codes in high quality.
+- Clean, feature-first architecture under `lib/core` and `lib/features`.
+- Material 3 design with responsive layouts, elegant light/dark palettes, and `ThemeMode.system` automatic theme switching.
+- Device-language aware localization infrastructure with English, Arabic, Spanish, and French placeholders.
+- Modern glassmorphism cards, smooth transitions, and animated scanner framing.
+- QR generation for text, URLs, WiFi credentials, phone, SMS, email, vCard, location, and social links.
+- Real-time QR preview with configurable colors, gradient backgrounds, and visual styles.
+- Scanner screen powered by camera scanning, gallery image analysis, flashlight controls, and URL confirmation before opening.
+- Export/share hooks for high-quality PNG and PDF workflows.
 
-## Why KimQR?
+## Getting Started
 
-KimQR delivers a fast, simple, and modern experience that combines powerful performance with an elegant interface, making it perfect for both daily and professional use.
+```bash
+flutter pub get
+flutter run
+```
 
-<p align="center">
-  <img src="banner.png" width="100%">
-</p>
+## Existing Android Build
 
-<h1 align="center">KimQR</h1>
+The native Android project can still be built with Gradle:
 
-<p align="center">
-  تطبيق ذكي لإنشاء وقراءة QR و Barcode
-</p>
+```bash
+./gradlew test
+./gradlew assembleDebug
+```

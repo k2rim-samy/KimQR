@@ -170,7 +170,7 @@ fun SplashScreen(
 
             // Text Typography branding
             Text(
-                text = "KimQR",
+                text = "QR Master",
                 color = MaterialTheme.colorScheme.onBackground,
                 fontSize = 32.sp,
                 fontWeight = FontWeight.ExtraBold,

@@ -10,7 +10,7 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-// Premium Luxury Color System for KimQR (Elegant Dark Theme adjustments)
+// Premium Luxury Color System for QR Master (Elegant Dark Theme adjustments)
 val LuxuryIndigo = Color(0xFFD0BCFF)       // Soft purple lavender (#D0BCFF)
 val LuxuryCyan = Color(0xFF8F98FF)         // Muted secondary purple-blue
 val LuxuryPurple = Color(0xFF4F378B)       // Dark Rich Violet (#4F378B)
