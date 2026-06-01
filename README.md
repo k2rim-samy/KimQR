@@ -13,8 +13,9 @@ A modern and professional app for creating and scanning QR Codes and Barcodes ب
 ## Why KimQR?
 
 KimQR delivers a fast, simple, and modern experience that combines powerful performance with an elegant interface, making it perfect for both daily and professional use.
+
 <p align="center">
-  <img src="assets/banner.png" width="500">
+  <img src="banner.png" width="500">
 </p>
 
 <h1 align="center">KimQR</h1>
